@@ -1,20 +1,22 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
-    <nav>
-      <figure className="grid-item-brand">
-        <img src="./images/Logo.svg" alt="logo" />
-      </figure>
-      <ul className="grid-item-menu">
-        <li><a href="/HOME">Home</a></li>
-        <li><a href="/ABOUT">About</a></li>
-        <li><a href="/MENU">Menu</a></li>
-        <li><a href="/RESERVATIONS">Reservations</a></li>
-        <li><a href="/ORDER online">Order Online</a></li>
-        <li><a href="/LOGIN">Login</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <figure className="grid-item-brand">
+          <img src="./images/Logo.svg" alt="logo" />
+        </figure>
+        <ul className="grid-item-menu">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+          <li><Link to="/reservations">Reservations</Link></li>
+          <li><Link to="/order online">Order Online</Link></li>
+          <li><Link to="/login">Login</Link></li>
+        </ul>
+      </nav>
+    </header>
   );
 }
 

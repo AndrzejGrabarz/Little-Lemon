@@ -1,12 +1,10 @@
-import React from 'react';
-
 function Main() {
   return (
     <main>
       <section className="bg">
         <div className="first-section">
           <h1>Little Lemon</h1>
-          <h3>Chicago</h3>
+          <h2>Chicago</h2>
           <p>
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.
@@ -19,7 +17,7 @@ function Main() {
           </button>
         </div>
         <div className="restaurant-image-container">
-          <img src="./images/restauranfood.jpg" alt="restauranfood" />
+          <img src="./images/restauranfood.webp" alt="restauranfood" />
         </div>
       </section>
 
@@ -32,7 +30,7 @@ function Main() {
           <div className="specials-menu">
             <div className="specials-card">
               <figure>
-                <img src="./images/greek salad.jpg" alt="greek salad" />
+                <img src="./images/greek-salad.webp" alt="greek salad" />
               </figure>
               <div className="header-prize">
                 <h3>Greek Salad</h3>
@@ -50,7 +48,7 @@ function Main() {
 
             <div className="specials-card">
               <figure>
-                <img src="./images/bruchetta.svg" alt="greek salad" />
+                <img src="./images/bruchetta.webp" alt="greek salad" />
               </figure>
               <div className="header-prize">
                 <h3>Bruchetta</h3>
@@ -92,7 +90,7 @@ function Main() {
 
         <h2>Testimonials</h2>
         <div className="Profile1">
-          <h4>Rating</h4>
+          <p>Rating</p>
           <div className="profile-card">
             <img src="./images/Profil.png" alt="" />
             <p>Profile</p>
@@ -101,7 +99,7 @@ function Main() {
         </div>
 
         <div className="Profile2">
-          <h4>Rating</h4>
+          <p>Rating</p>
           <div className="profile-card">
             <img src="./images/Profil.png" alt="" />
             <p>Profile</p>
@@ -110,7 +108,7 @@ function Main() {
         </div>
 
         <div className="Profile3">
-          <h4>Rating</h4>
+          <p>Rating</p>
           <div className="profile-card">
             <img src="./images/Profil.png" alt="" />
             <p>Profile</p>
@@ -119,7 +117,7 @@ function Main() {
         </div>
 
         <div className="Profile4">
-          <h4>Rating</h4>
+          <p>Rating</p>
           <div className="profile-card">
             <img src="./images/Profil.png" alt="" />
             <p>Profile</p>
@@ -132,7 +130,7 @@ function Main() {
       <section>
         <div className="fourh-section">
           <h1>Little Lemon</h1>
-          <h3>Chicago</h3>
+          <h2>Chicago</h2>
           <p>
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.

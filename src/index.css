@@ -325,6 +325,34 @@ footer {
   justify-content: flex-start;
 }
 
+/*Form*/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form label {
+  margin: 20px 0;
+}
+
+label input,select {
+  margin: 0 10px;
+}
+
+form button {
+  margin: 10px 0;
+  font-size:12px;
+}
+
+/*Validation form*/
+
+#error {
+  color: #E53E33;
+}
+
+
 /*RWD*/
 
 @media screen and (max-width:600px) {

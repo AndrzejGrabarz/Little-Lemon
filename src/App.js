@@ -14,7 +14,7 @@ import ConfirmedBooking from './components/ConfirmedBooking';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/confirmbooking" element={<ConfirmedBooking />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

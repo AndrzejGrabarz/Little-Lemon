@@ -5,6 +5,14 @@
   padding: 0;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -293,7 +301,7 @@ div.fourh-section {
 
 /*Footer*/
 footer {
-  margin-top:120px;
+  /* margin-top:120px; */
   padding-bottom:40px;
   padding-top: 20px;
   background-color: #f4ce14;;
@@ -326,30 +334,15 @@ footer {
 }
 
 /*Form*/
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-form label {
-  margin: 20px 0;
-}
 
-label input,select {
-  margin: 0 10px;
-}
 
-form button {
-  margin: 10px 0;
-  font-size:12px;
-}
 
 /*Validation form*/
 
 #error {
   color: #E53E33;
+  margin: 2px;
 }
 
 
@@ -360,3 +353,4 @@ form button {
     flex-direction: column;
   }
 }
+

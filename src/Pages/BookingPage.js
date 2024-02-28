@@ -16,11 +16,12 @@ function BookingPage() {
     return { time: fetchAPI(today), selected: null };
   };
   const [availableTimes, dispatch] = useReducer(updateTimes, initialState());
-
   return (
-    <BookingForm
-      availableTimes={availableTimes}
-    />
+    <div className="card">
+      <BookingForm
+        availableTimes={availableTimes}
+      />
+    </div>
   );
 }
 

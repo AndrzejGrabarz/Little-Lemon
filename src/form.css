@@ -1,0 +1,106 @@
+form {
+ display: flex;
+ flex-direction:column;
+ justify-content: center;
+ align-items: center;
+
+  }
+
+.form-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+  
+ form input,select {
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-bottom: 1px solid #3333;
+    font-size: 1rem;
+    
+ }
+
+ .yellow-box {
+  width: 10px;
+  height: 40px;
+  background-color: #f4ce14;
+  margin: 10px 10px;
+ }
+
+ .personal-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 12px 10px;
+ }
+
+ form h1 {
+  background-color: #f4ce14;
+  width: 100%;
+  text-align: center;
+  font-family: 'Karla';
+  padding: 20px 0;
+  border-radius: 15px 15px 0 0;
+ }
+  
+
+ form h2 {
+  font-family: 'Karla';
+ }
+  form label  {
+    margin: 10px 20px;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  form button {
+    display: flex;
+    margin: 10px 0;
+    font-size:1rem;
+  }
+
+.form-col1 {
+    flex: 1;
+}
+
+.form-col2 {
+  flex: 1;
+}
+
+.form-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box-col {
+  /* border-right:  1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; */
+  box-shadow: 4px 5px 22px -16px rgba(66, 68, 90, 1);
+  min-width:800px;
+}
+
+div.form-flex-col label {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  input#date {
+    padding: 8px;
+  }
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    font-size: 1.2rem
+  }

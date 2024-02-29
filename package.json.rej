@@ -1,0 +1,9 @@
+diff a/package.json b/package.json	(rejected hunks)
+@@ -7,7 +7,6 @@
+     "@testing-library/react": "^13.4.0",
+     "@testing-library/user-event": "^13.5.0",
+     "formik": "^2.4.5",
+-    "history": "^5.3.0",
+     "react": "^18.2.0",
+     "react-dom": "^18.2.0",
+     "react-input-mask": "^2.0.4",

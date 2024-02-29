@@ -1,0 +1,9 @@
+diff a/public/index.html b/public/index.html	(rejected hunks)
+@@ -28,7 +28,6 @@
+     <meta property="og:locale" content="pl_PL"/>
+     <meta property="og:site_name" content="Little Lemon"/>
+     <script src="https://raw.githubusercontent.com/Meta-Front-End-Developer-PC/capstone/master/api.js"></script>
+-    <link rel="preload" href="./images/restauranfood.webp" as="image">
+     <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+     <!--
+       manifest.json provides metadata used when your web app is installed on a

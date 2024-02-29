@@ -1,0 +1,9 @@
+diff a/src/App.css b/src/App.css	(rejected hunks)
+@@ -1,4 +1,6 @@
+-
++.App {
++  text-align: center;
++}
+ 
+ .App-logo {
+   height: 40vmin;

@@ -70,13 +70,13 @@ function BookingForm({
                   </label>
                   <label htmlFor="lastName">
                     Last Name
-                    <Field id="lastName" type="text" name="lastName" placeholder="Boar" />
-                    <ErrorMessage name="lastName" id="error" component="div" />
+                    <Field id="lastName" type="text" name="lastName" placeholder="Boar" data-testid="lastName" />
+                    <ErrorMessage name="lastName" id="error" component="div" data-testid="lastName-error" />
                   </label>
                   <label htmlFor="email">
                     Email Adress
-                    <Field id="email" type="email" name="email" placeholder="lemon@gmail.com" />
-                    <ErrorMessage name="email" id="error" component="div" />
+                    <Field id="email" type="email" name="email" placeholder="lemon@gmail.com" data-testid="email-field" />
+                    <ErrorMessage name="email" id="error" component="div" data-testid="email-error" />
                   </label>
                   <label htmlFor="phone">
                     Phone Number

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="test">
       <img className="footer-image" src="./images/Profil.png" alt="" />
       <div className="footer-nav footer-nav-1">
         <h4>Doormat Navigation</h4>

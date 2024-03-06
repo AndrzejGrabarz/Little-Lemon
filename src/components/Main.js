@@ -81,7 +81,7 @@ function Main() {
           <p className="order">Order a delivery $3</p>
         </div>
       </section>
-      {/* <section className="section-3">
+      <section className="section-3">
 
         <h2>Testimonials</h2>
         <div className="Profile1">
@@ -105,8 +105,8 @@ function Main() {
         <div className="Profile3">
           <p>Rating</p>
           <div className="profile-card">
-            <img src="./images/Profil.png" alt="" />
             <p>Profile</p>
+            <img src="./images/Profil.png" alt="" />
           </div>
           <p>Reviev</p>
         </div>
@@ -114,13 +114,13 @@ function Main() {
         <div className="Profile4">
           <p>Rating</p>
           <div className="profile-card">
-            <img src="./images/Profil.png" alt="" />
             <p>Profile</p>
+            <img src="./images/Profil.png" alt="" />
           </div>
           <p>Reviev</p>
         </div>
 
-      </section> */}
+      </section>
       <section className="section-4">
         <div className="fourh-section">
           <h1>Little Lemon</h1>
